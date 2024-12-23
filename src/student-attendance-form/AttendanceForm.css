@@ -1,0 +1,87 @@
+.wrapper {
+  position: relative;
+  width: 420px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(100px);
+  border-radius: 10px;
+  color: #fff;
+  margin: 50px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+
+}
+
+form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.wrapper .form-box {
+  width: 100%;
+}
+
+form .input-box {
+  position: relative;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 15px 50px 15px 15px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.input-box input::placeholder {
+  color: #aaa;
+}
+
+.input-box .icon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #fff;
+}
+
+form button {
+  width: 100%;
+  padding: 10px 0;
+  background: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background: #218838;
+}
+
+.error-message {
+  color: #ff4d4f;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+form p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.input-box input[type="date"]{
+font-size: 16px;
+background: #fff;
+color: #000;
+}
